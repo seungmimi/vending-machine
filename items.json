@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Original Cola",
+        "cost": 1000,
+        "img": "cola-original.png",
+        "count": 5
+    },
+    {
+        "name": "Welchh",
+        "cost": 1000,
+        "img": "drink-violet.png",
+        "count": 5
+    },
+    {
+        "name": "Lemon Soda",
+        "cost": 1000,
+        "img": "drink-orange.png",
+        "count": 5
+    },
+    {
+        "name": "Pocari Sweet",
+        "cost": 1000,
+        "img": "drink-blue.png",
+        "count": 5
+    },
+    {
+        "name": "Cider",
+        "cost": 1000,
+        "img": "drink-green.png",
+        "count": 5
+    },
+    {
+        "name": "Orange Soda",
+        "cost": 1000,
+        "img": "drink-lemon.png",
+        "count": 5
+    }
+]

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vending machine</title>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <div class="tost_message" id="tost_message">입금이 완료 되었습니다!</div>
+    <div class="bg-box"></div>
+    <main class="container max_width">
+        <!--왼쪽 박스-->
+        <section class="area bill_area">
+            <header class="header">
+                <h1 class="logo img_wrap">
+                    <img src="./img/logo.svg" alt="자판기 로고">
+                </h1>
+            </header>
+            <div class="wallet_wrap">
+                <h2 class="a11y_hidden">소지금</h2>
+                <div class="wrap input_wrap_1">
+                    <div class="point_box">
+                        <h2 class="title">소지금</h2>
+                        <p class="value fw_700" id="wallet">25,000<span class="unit">원</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bill_wrap">
+                <h2>흭득한 음료</h2>
+                <div class="wrap input_wrap_1 order_wrap">
+                    <div class="scroll_box h_320">
+                        <ul class="menu_list list_type">
+                            <!--흭득한 음료 리스트-->
+                        </ul>
+                    </div>
+                </div>
+                <p class="price_sum">총 금액: 0원</p>
+            </div>
+        </section>
+
+
+        <!--오른쪽 박스-->
+        <section class="area order_form_area">
+            <h2 class="a11y_hidden">자판기 메뉴</h2>
+            <div class="wrap top_img">
+                <img src="./img/machine-logo.svg" alt="">
+                <img src="./img/sticker.png" alt="">
+            </div>
+            <div class="wrap menu_wrap">
+                <ul class="menu_list button_type">
+                    <!--메뉴 리스트-->
+                </ul>
+            </div>
+            <div class="wrap deco_wrap">
+                <div class="scroll-text">
+                    <div class="track">
+                        <p>welcome!</p>
+                        <p>welcome!</p>
+                        <p>welcome!</p>
+                        <p>welcome!</p>
+                        <p>welcome!</p>
+                    </div>
+                </div>
+                <img src="./img/deco-img.png" alt="">
+            </div>
+            <div class="wrap input_wrap_1">
+                <div class="point_box">
+                    <h2 class="title">잔액</h2>
+                    <p class="value" id="change">0<span class="unit">원</span></p>
+                </div>
+                <button type="button" class="button" id="change_btn">거스름돈 반환</button>
+            </div>
+            <div class="wrap input_wrap_1">
+                <lable for="input_m" class="a11y_hidden">입금금액 입력</lable>
+                <input type="number" id="input_m" placeholder="입금액 입력" class="input line_gray">
+                <button type="button" class="button" id="insert_coin_btn">입금</button>
+            </div>
+            <div class="wrap input_wrap_1 order_wrap">
+                <div class="hidden">
+                    <div class="scroll_box h_106">
+                        <ul class="menu_list list_type">
+                            <!--클릭한 음료 리스트-->
+                        </ul>
+                    </div>
+                </div>
+
+                <button type="button" class="get_btn button bg_main">흭득</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/common.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
