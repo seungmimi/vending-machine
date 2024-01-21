@@ -151,7 +151,7 @@ body {
     bottom: 0;
     height: 65%;
     width: 100%;
-    background-image: url(../img/bgImg.png);
+    background-image: url(../img/bgimg.png);
     z-index: -100;
 }
 .header {
